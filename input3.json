@@ -1,0 +1,13 @@
+{ "command": "room", "venue": "Cafe", "room": "CafeSmall", "size": "small" }
+{ "command": "room", "venue": "Cafe", "room": "CafeMedium", "size": "medium" }
+{ "command": "room", "venue": "Cafe", "room": "CafeLarge", "size": "large" }
+{ "command": "room", "venue": "Library", "room": "Study", "size": "small" }
+{ "command": "room", "venue": "Library", "room": "Room A", "size": "medium" }
+{ "command": "room", "venue": "Library", "room": "Main", "size": "large" }
+{ "command": "request", "id": "Meeting", "start": "2019-03-25", "end": "2019-03-26", "small": 1, "medium": 1, "large": 1 }
+{ "command": "request", "id": "Meeting2.0", "start": "2019-03-25", "end": "2019-03-26", "small": 1, "medium": 1, "large": 1 }
+{ "command": "list", "venue": "Library" }
+{ "command": "list", "venue": "Cafe" }
+{ "command": "cancel", "id": "Meeting2.0" }
+{ "command": "list", "venue": "Library" }
+{ "command": "list", "venue": "Cafe" }

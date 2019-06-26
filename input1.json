@@ -1,0 +1,17 @@
+{ "command": "room", "venue": "Cafe", "room": "CafeSmall1", "size": "small" }
+{ "command": "room", "venue": "Cafe", "room": "CafeSmall2", "size": "small" }
+{ "command": "room", "venue": "Cafe", "room": "CafeMedium1", "size": "medium" }
+{ "command": "room", "venue": "Ballroom", "room": "Big", "size": "large" }
+{ "command": "request", "id": "Meeting", "start": "2019-03-25", "end": "2019-03-26", "small": 0, "medium": 1, "large": 0 }
+{ "command": "request", "id": "Convention", "start": "2019-03-24", "end": "2019-03-27", "small": 0, "medium": 1, "large": 0 }
+{ "command": "request", "id": "Dance Party", "start": "2019-03-26", "end": "2019-03-27", "small": 2, "medium": 0, "large": 1 }
+{ "command": "request", "id": "Dance Party", "start": "2019-03-26", "end": "2019-03-27", "small": 0, "medium": 0, "large": 1 }
+{ "command": "list", "venue": "Cafe" }
+{ "command": "list", "venue": "Ballroom" }
+{ "command": "cancel", "id": "Meeting" }
+{ "command": "request", "id": "Convention", "start": "2019-03-24", "end": "2019-03-27", "small": 0, "medium": 0, "large": 1 }
+{ "command": "request", "id": "Convention", "start": "2019-03-24", "end": "2019-03-27", "small": 0, "medium": 1, "large": 0 }
+{ "command": "change", "id": "Convention", "start": "2019-03-27", "end": "2019-03-29", "small": 1, "medium": 0, "large": 0 }
+{ "command": "list", "venue": "Cafe" }
+{ "command": "list", "venue": "Ballroom" }
+
